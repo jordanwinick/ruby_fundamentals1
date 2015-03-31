@@ -6,7 +6,7 @@ system("say Hi #{name}")
 puts "\nHow old are you?"
 age = gets.chomp.to_i
 `say bullshit`
-sleep 1
+sleep 0.6
 `say really how old are you?`
 
 age=gets.chomp.to_i
